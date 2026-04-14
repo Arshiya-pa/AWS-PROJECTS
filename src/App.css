@@ -1,0 +1,23 @@
+.page{
+padding: 0 100px;
+}
+.head{
+text-align: center;
+font-size: 35px;
+}
+.para{
+font-size: 18px;
+color: rgba(0, 0, 0, 0.636);
+}
+.btns{
+display: flex;
+gap: 1rem;
+}
+.btns button{
+padding: 10px 18px;
+font-size: 18px;
+border: none;
+background-color: blue;
+color: white;
+
+}
