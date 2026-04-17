@@ -6,6 +6,6 @@ app.get('/', (req, res) => {
 res.send("Backend HOME page is RUNNING...")
 })
 
-app.listen(5000, () => {
-console.log("Backend running on : http://localhost:5000")
+app.listen(5000,'0.0.0.0', () => {
+console.log("Backend running on port : 5000")
 })
