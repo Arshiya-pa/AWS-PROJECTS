@@ -6,7 +6,7 @@ app.get('/', (req, res) => {
 res.send("Backend HOME page is RUNNING...")
 })
 
-app.get('/api/test',() => {
+app.get('/api/test',(req,res) => {
   res.json({
     message: "Hello message from backend....",
     status:"success"
